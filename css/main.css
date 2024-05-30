@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Alegreya", serif;
+}
+
+body{
+    font-family: "Alegreya Sans", sans-serif;
+}
+
+.clear-fix{
+    clear: both;
+}
+
+/* ================== nav ================== */
+
+.main-nav{
+    width: 90%;
+    margin: auto;
+}
+
+.main-nav .logo{
+    float: left;
+    width: 15%;
+    margin-top: 25px;
+}
+
+.main-nav .logo img{
+    width: 100%;
+}
+
+.list li {
+    display: inline;
+    float: right;
+    color: white;
+    margin-right: 20px;
+    font-size: 18px;
+    margin-top: 40px;
+    font-weight: 400;
+}
+
+/* ================== main ================== */
+
+.main{
+    background-image: url(../images/drew-coffman-1872.jpg) ;
+    height: 100VH;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+}
+
+.main-cont{
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.main-cont p {
+    font-size: 24px;
+    font-weight: 400;
+    width: 35%;
+    margin: auto;
+}
+
+.main-cont h1 {
+    font-size: 76px;
+    font-weight: 400;
+}
+
+button{
+    height: 50px;
+    width: 125px;
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.butt-1 {
+    border: 2px solid #8e7754;
+    background-color: #8e7754;
+}
+
+.butt-2 {
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+.main-cont h1 {
+    margin-block: 20px;
+}
+
+.shape{
+    width: 30px;
+    height: 50px;
+    background-color: transparent;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    margin: auto;
+    margin-top: 10px;
+}
+
+/* ================== who we are ================== */
+
+.who {
+    width: 80%;
+    margin: auto;
+    padding-block: 130px;
+}
+
+.pic-1 {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 60px;
+}
+
+.pic-1 img{
+    width: 100%;
+}
+
+.who-cont {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+
+.who-cont h2{
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #303030;
+    line-height: 44.16px;
+}
+
+.who-cont p{
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 31.62px;
+}
+
+.who-cont .icon {
+    padding: 15px 0px 15px 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 31.62px;
+}
+
+.who-cont .icon i {
+    font-size: 22px;
+    color: #8e7754;
+    border: 1px solid #686868;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* ================== Our Location ================== */
+
+.our-location{
+    background-color: #f8f8f8;
+}
+
+.parent{
+    width: 80%;
+    margin: auto;
+    padding: 130px;
+}
+
+.parent .prg {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.parent .prg h2 {
+    margin-bottom: 25px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #303030;
+    line-height: 44.16px;
+}
+
+.parent .prg p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #686868;
+    line-height: 31.62px;
+    margin-bottom: 30px;
+}
+
+
+.pic-2 {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 80px;
+}
+
+.pic-2 img{
+    width: 100%;
+}
+
+/* ================== Our Baking ================== */
+
+.our-baking {
+    width: 80%;
+    margin: auto;
+    padding: 70px 95px 50px;
+}
+
+.title {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.our-baking .title h3{
+    font-size: 30px;
+    color: #303030;
+    font-size: 400;
+}
+
+.our-baking .title p {
+    font-size: 17px;
+    color: #888 ;
+    font-weight: 400;
+    margin-top: 17px;
+}
+
+.our-baking .baking {
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.our-baking .baking img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.our-baking .baking h4 {
+    font-size: 22px;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.our-baking .baking p {
+    font-size: 17px;
+    color: #686868;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* ================== Contact info ================== */
+
+.main-contact{ 
+    background-color: #f8f8f8;
+    
+}
+
+.contact-info {
+    padding: 85px 95px;
+    margin: auto;
+    width: 80%;
+}
+
+.contact {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.map {
+    width: 40%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #303030;
+    margin-bottom: 25px;
+}
+
+.contact p {
+    font-size: 17px;
+    color: #686868;
+    margin-bottom: 25px;
+    width: 80%;
+}
+
+.contact .contact-details {
+    margin-bottom: 15px;
+}
+
+.contact .contact-details i {
+    font-size: 20px;
+    color: white;
+    background-color: #8e7754;
+    border: 6px solid #8e7754;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.contact .contact-details span {
+    padding: 15px 0px 15px 30px;
+    font-size: 17px;
+    color: #686868;
+}
+
+/* ================== About US ================== */
+
+.about-main {
+    background-color: #403d38;
+}
+
+.about {
+    width: 80%;
+    margin: auto;
+    background-image: url(../images/contact-details-map.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-block: 50px;
+}
+
+.about .about-us{
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 15px;
+}
+
+.about .why-we {
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 15px;
+}
+
+.about .hours {
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 15px;
+}
+
+.about .con-detail{
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0px 15px;
+}
+
+.about h4 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.about p {
+    font-size: 16px;
+    color: #969696;
+    margin-bottom: 20px;
+    line-height: 2em;
+}
+
+.about li {
+    font-size: 16px;
+    color: #969696;
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+    line-height: 1.8em;
+    border-bottom: 2px solid rgba(255,255,255,0.05);
+}
+
+.about ul {
+    list-style-type:none;
+}
+
+.about .icon {
+    font-size: 16px;
+    color: #969696;
+    margin-bottom: 10px;
+    padding-bottom: 7px;
+    line-height: 1.8em;
+    border-bottom: 2px solid rgba(255,255,255,0.05);
+}
+
+/* ================== Footer ================== */
+
+.footer-color {
+    background-color: #353330;
+}
+
+.footer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-block: 50px;
+}
+
+.footer img {
+    margin: 10px 0px 25px;
+}
+
+.footer p {
+    margin: 20px 0px ;
+    color: #777777;
+    font-size: 15px;
+}
+
+.footer i {
+    margin: 0px 5px ;
+    color: #777777;
+    font-size: 20px;
+    background-color: #484540;
+    border: 5px transparent #484540 ;
+    border-radius: 50%;
+    line-height: 40px;
+    width: 40px;
+}
